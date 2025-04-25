@@ -1,7 +1,7 @@
 "use client";
 
-import "../SmmPaketsComponent/SmmPakets.scss";
-import { useMyContext } from "../../context/UseContext";
+import "@/components/SmmPaketsComponent/SmmPakets.scss";
+import { useMyContext } from "@/context/UseContext";
 
 export const SmmPakets = () => {
   const { translations, language } = useMyContext();

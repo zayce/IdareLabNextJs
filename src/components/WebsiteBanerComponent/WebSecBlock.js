@@ -1,9 +1,9 @@
 "use client";
 
-import "../WebsiteBanerComponent/WebSecBlock.scss";
+import "@/components/WebsiteBanerComponent/WebSecBlock.scss";
 
 import Image from "next/image";
-import { useMyContext } from "../../context/UseContext";
+import { useMyContext } from "@/context/UseContext";
 
 export const WebSecBlock = () => {
   const { translations, language } = useMyContext();

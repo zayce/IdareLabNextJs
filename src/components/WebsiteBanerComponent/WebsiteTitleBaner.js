@@ -1,9 +1,9 @@
 "use client";
 
-import "../WebsiteBanerComponent/WebsiteTitleBaner.scss";
+import '@/components/WebsiteBanerComponent/WebsiteTitleBaner.scss';
 
 import Image from "next/image";
-import { useMyContext } from "../../context/UseContext";
+import { useMyContext } from "@/context/UseContext";
 
 export const WebsiteTitleBaner = () => {
   const { translations, language } = useMyContext();

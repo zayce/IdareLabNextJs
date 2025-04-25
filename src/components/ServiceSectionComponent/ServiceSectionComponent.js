@@ -1,10 +1,10 @@
 "use client";
 
-import "../ServiceSectionComponent/ServiceSectionComponent.scss";
+import "@/components/ServiceSectionComponent/ServiceSectionComponent.scss";
 
 import Image from "next/image";
 
-import { useMyContext } from "../../context/UseContext";
+import { useMyContext } from "@/context/UseContext";
 
 export const ServiceSection = () => {
   const { translations, language } = useMyContext();

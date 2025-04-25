@@ -1,7 +1,7 @@
 "use client";
-import "../HeaderComponent/HeaderComponent.scss";
+import "@/components/HeaderComponent/HeaderComponent.scss";
 import Image from "next/image";
-import { useMyContext } from "../../context/UseContext";
+import { useMyContext } from "@/context/UseContext";
 
 export const Header = () => {
   const { handleLanguageChange, translations, language } = useMyContext();
