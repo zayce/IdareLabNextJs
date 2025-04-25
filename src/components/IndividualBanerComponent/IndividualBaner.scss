@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "GillSans";
+  src: url(../../assests/fonts/GillSans.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Coolvetica";
+  src: url(../../assests/fonts/coolvetica.ttf) format("truetype");
+}
+
+.Idarelab-Individual-Baner-Wrapper {
+  margin-bottom: 200px;
+  .Idarelab-Individual-Baner-Inner {
+    width: 980px;
+    margin: 0 auto;
+    padding: 36px;
+    background-color: rgba(116, 136, 193, 1);
+    .Idarelab-Individual-Baner-Title {
+      margin-bottom: 40px;
+      .Idarelab-Individual-Baner-Title-Name {
+        font-family: Coolvetica;
+        font-weight: 400;
+        font-size: 48px;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 1);
+        margin-bottom: 40px;
+      }
+      .Idarelab-Individual-Baner-Title-desc {
+        font-family: GillSansC;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        color: rgba(255, 255, 255, 1);
+      }
+    }
+    .Idarelab-Individual-Baner-Service-Objects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      .Idarelab-Individual-Baner-Service-Object {
+        padding: 20px;
+        width: 188px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        border: 1px solid rgba(255, 255, 255, 1);
+        justify-content: space-between;
+        .Idarelab-Individual-Baner-Service-Object-Title {
+          margin-bottom: 74px;
+          .Idarelab-Individual-Baner-Service-Object-Title-Name {
+            font-family: Coolvetica;
+            font-weight: 400;
+            font-size: 24px;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 1);
+            margin-bottom: 20px;
+          }
+          .Idarelab-Individual-Baner-Service-Object-Title-Desc {
+            width: 172px;
+            font-family: GillSansC;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            color: rgba(255, 255, 255, 1);
+          }
+        }
+        .Idarelab-Individual-Baner-Service-Object-Time {
+          font-family: GillSansC;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 100%;
+          color: rgba(255, 255, 255, 1);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .Idarelab-Individual-Baner-Wrapper {
+    margin-bottom: 100px;
+    padding: 0 20px;
+    .Idarelab-Individual-Baner-Inner {
+      width: 400px;
+      margin: 0 auto;
+      padding: 36px;
+      background-color: rgba(116, 136, 193, 1);
+
+      .Idarelab-Individual-Baner-Title {
+        margin-bottom: 40px;
+        .Idarelab-Individual-Baner-Title-Name {
+          font-family: Coolvetica;
+          font-weight: 400;
+          font-size: 32px;
+          text-transform: uppercase;
+          color: rgba(255, 255, 255, 1);
+          margin-bottom: 40px;
+        }
+        .Idarelab-Individual-Baner-Title-desc {
+          font-family: GillSansC;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 100%;
+          color: rgba(255, 255, 255, 1);
+        }
+      }
+      .Idarelab-Individual-Baner-Service-Objects {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .Idarelab-Individual-Baner-Service-Object {
+          padding: 20px;
+          width: 212px;
+          display: flex;
+          flex-direction: column;
+          flex-grow: 1;
+          border: 1px solid rgba(255, 255, 255, 1);
+          justify-content: space-between;
+          .Idarelab-Individual-Baner-Service-Object-Title {
+            margin-bottom: 74px;
+            .Idarelab-Individual-Baner-Service-Object-Title-Name {
+              font-family: Coolvetica;
+              font-weight: 400;
+              font-size: 24px;
+              text-transform: uppercase;
+              color: rgba(255, 255, 255, 1);
+              margin-bottom: 20px;
+            }
+            .Idarelab-Individual-Baner-Service-Object-Title-Desc {
+              width: 172px;
+              font-family: GillSansC;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 100%;
+              color: rgba(255, 255, 255, 1);
+            }
+          }
+          .Idarelab-Individual-Baner-Service-Object-Time {
+            font-family: GillSansC;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 100%;
+            color: rgba(255, 255, 255, 1);
+          }
+        }
+      }
+    }
+  }
+}

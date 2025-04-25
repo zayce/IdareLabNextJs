@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "GillSans";
+  src: url(../fonts/GillSans.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "Coolvetica";
+  src: url(../fonts/coolvetica.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+.Idarelab-Individual-Baner-Wrapper {
+  margin-bottom: 200px;
+}
+.Idarelab-Individual-Baner-Wrapper .Idarelab-Individual-Baner-Inner {
+  width: 980px;
+  margin: 0 auto;
+  padding: 36px;
+  background-color: rgb(116, 136, 193);
+}
+.Idarelab-Individual-Baner-Wrapper .Idarelab-Individual-Baner-Inner .Idarelab-Individual-Baner-Title {
+  margin-bottom: 40px;
+}
+.Idarelab-Individual-Baner-Wrapper .Idarelab-Individual-Baner-Inner .Idarelab-Individual-Baner-Title .Idarelab-Individual-Baner-Title-Name {
+  font-family: Coolvetica;
+  font-weight: 400;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  margin-bottom: 40px;
+}
+.Idarelab-Individual-Baner-Wrapper .Idarelab-Individual-Baner-Inner .Idarelab-Individual-Baner-Title .Idarelab-Individual-Baner-Title-desc {
+  font-family: GillSansC;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: rgb(255, 255, 255);
+}
+.Idarelab-Individual-Baner-Wrapper .Idarelab-Individual-Baner-Inner .Idarelab-Individual-Baner-Service-Objects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.Idarelab-Individual-Baner-Wrapper .Idarelab-Individual-Baner-Inner .Idarelab-Individual-Baner-Service-Objects .Idarelab-Individual-Baner-Service-Object {
+  padding: 20px;
+  width: 212px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  border: 1px solid rgb(255, 255, 255);
+  justify-content: space-between;
+}
+.Idarelab-Individual-Baner-Wrapper .Idarelab-Individual-Baner-Inner .Idarelab-Individual-Baner-Service-Objects .Idarelab-Individual-Baner-Service-Object .Idarelab-Individual-Baner-Service-Object-Title {
+  margin-bottom: 74px;
+}
+.Idarelab-Individual-Baner-Wrapper .Idarelab-Individual-Baner-Inner .Idarelab-Individual-Baner-Service-Objects .Idarelab-Individual-Baner-Service-Object .Idarelab-Individual-Baner-Service-Object-Title .Idarelab-Individual-Baner-Service-Object-Title-Name {
+  font-family: Coolvetica;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+.Idarelab-Individual-Baner-Wrapper .Idarelab-Individual-Baner-Inner .Idarelab-Individual-Baner-Service-Objects .Idarelab-Individual-Baner-Service-Object .Idarelab-Individual-Baner-Service-Object-Title .Idarelab-Individual-Baner-Service-Object-Title-Desc {
+  width: 172px;
+  font-family: GillSansC;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: rgb(255, 255, 255);
+}
+.Idarelab-Individual-Baner-Wrapper .Idarelab-Individual-Baner-Inner .Idarelab-Individual-Baner-Service-Objects .Idarelab-Individual-Baner-Service-Object .Idarelab-Individual-Baner-Service-Object-Time {
+  font-family: GillSansC;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=IndividualBaner.css.map */

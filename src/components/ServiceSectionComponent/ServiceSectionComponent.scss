@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "GillSans";
+  src: url(../../assests/fonts/GillSans.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "Coolvetica";
+  src: url(../../assests/fonts/coolvetica.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+
+.IdareLab-services-section-wrapper {
+  margin-bottom: 180px;
+  .IdareLab-services-section-inner {
+    width: 980px;
+    margin: 0 auto;
+    .IdareLab-services-section-Title {
+      text-align: center;
+      margin-bottom: 200px;
+      .IdareLab-services-section-Title-Logo {
+        margin-bottom: 70px;
+      }
+      .IdareLab-services-section-title {
+        font-family: Coolvetica;
+        font-weight: 400;
+        font-size: 60px;
+      }
+    }
+    .IdareLab-services-section {
+      .IdareLab-services-section-column {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+        .Block {
+          font-family: Coolvetica;
+          font-weight: 400;
+          font-size: 64px;
+          text-transform: uppercase;
+        }
+        .Smm {
+          background-color: rgba(25, 9, 74, 1);
+          color: white;
+          padding: 316px 141px 48px 48px;
+        }
+        .web {
+          background-color: rgba(202, 85, 85, 1);
+          color: black;
+          padding: 316px 88px 48px 48px;
+        }
+      }
+
+      .IdareLab-services-section-columns {
+        display: flex;
+        gap: 20px;
+
+        .Blocks {
+          font-family: Coolvetica;
+          font-weight: 400;
+          font-size: 48px;
+          text-transform: uppercase;
+        }
+        .Brand {
+          background-color: rgba(246, 158, 99, 1);
+          padding: 146px 95px 36px 36px;
+        }
+        .Create {
+          background-color: black;
+          color: white;
+          padding: 146px 51px 36px 36px;
+        }
+        .individual {
+          background-color: rgba(116, 136, 193, 1);
+          color: white;
+          padding: 146px 55px 36px 36px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .IdareLab-services-section-wrapper {
+    margin-bottom: 180px;
+
+    .IdareLab-services-section-inner {
+      width: 480px;
+      margin: 0 auto;
+      padding: 0 20px;
+      .IdareLab-services-section-Title {
+        text-align: center;
+        margin-bottom: 100px;
+        .IdareLab-services-section-Title-Logo {
+          margin-bottom: 40px;
+        }
+        .IdareLab-services-section-title {
+          width: 400px;
+          margin: 0 auto;
+          font-family: Coolvetica;
+          font-weight: 400;
+          font-size: 32px;
+        }
+      }
+      .IdareLab-services-section {
+        .IdareLab-services-section-column {
+          display: block;
+
+          .Block {
+            width: 400px;
+            margin: 0 auto;
+            font-family: Coolvetica;
+            font-weight: 400;
+            font-size: 40px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+          }
+          .Smm {
+            background-color: rgba(25, 9, 74, 1);
+            color: white;
+            padding: 106px 118px 20px 20px;
+          }
+          .web {
+            background-color: rgba(202, 85, 85, 1);
+            color: black;
+            padding: 106px 80px 20px 20px;
+          }
+        }
+
+        .IdareLab-services-section-columns {
+          display: block;
+
+          .Blocks {
+            width: 400px;
+            margin: 0 auto;
+            font-family: Coolvetica;
+            font-weight: 400;
+            font-size: 40px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+          }
+          .Brand {
+            background-color: rgba(246, 158, 99, 1);
+            padding: 69px 147px 20px 20px;
+          }
+          .Create {
+            background-color: black;
+            color: white;
+            padding: 73px 110px 20px 20px;
+          }
+          .individual {
+            background-color: rgba(116, 136, 193, 1);
+            color: white;
+            padding: 73px 114px 20px 20px;
+          }
+        }
+      }
+    }
+  }
+}

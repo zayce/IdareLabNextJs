@@ -1,0 +1,386 @@
+@font-face {
+  font-family: "GillSans";
+  src: url(../../assests/fonts/GillSans.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "Coolvetica";
+  src: url(../../assests/fonts/coolvetica.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+
+.IdareLab-Smm-Packages-wrapper {
+  margin-bottom: 200px;
+  .IdareLab-Smm-Packages-inner {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    .IdareLab-Smm-Packages-Left-Sides {
+      width: 340px;
+      .IdareLab-Smm-Packages-Left-Sides-Title {
+        font-family: Coolvetica;
+        font-weight: 400;
+        font-size: 48px;
+        text-transform: uppercase;
+        margin-bottom: 138px;
+      }
+      .IdareLab-Smm-Packages-Left-Sides-Desc {
+        font-family: GillSans;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin-bottom: 300px;
+      }
+      .IdareLab-Smm-Packages-comment {
+        font-family: GillSans;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: rgba(159, 159, 159, 1);
+        margin-bottom: 18px;
+      }
+      .IdareLab-Smm-Packages-comment:last-child {
+        margin-bottom: 0px;
+      }
+    }
+    .IdareLab-Smm-Packages-Right-Sides {
+      display: flex;
+      flex-wrap: wrap;
+      width: 580px;
+      gap: 20px;
+      .IdareLab-Smm-Packages-Right-Sides-Pack {
+        width: 278px;
+        border: 1px solid rgba(0, 0, 0, 1);
+        transition: background-color 1s ease-in-out;
+        .IdareLab-Smm-Packages-Right-Sides-Pack-Opis {
+          padding: 30px;
+          .IdareLab-Smm-Packages-Right-Sides-Pack-Name {
+            font-family: Coolvetica;
+            font-weight: 400;
+            font-size: 24px;
+            text-transform: uppercase;
+            color: rgba(0, 0, 0, 1);
+            margin-bottom: 25px;
+          }
+          .IdareLab-Smm-Packages-Right-Sides-Pack-Posts {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 14px;
+            .Posts {
+              font-family: GillSans;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 100%;
+            }
+            .Count {
+              font-family: GillSans;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 100%;
+              text-align: right;
+            }
+          }
+          .IdareLab-Smm-Packages-Right-Sides-Pack-Reeals {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 14px;
+            .Reels {
+              font-family: GillSans;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 100%;
+              letter-spacing: 0%;
+            }
+            .Count {
+              font-family: GillSans;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 100%;
+              text-align: right;
+            }
+          }
+          .IdareLab-Smm-Packages-Right-Sides-Pack-time {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 14px;
+            .SMM {
+              font-family: GillSans;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 100%;
+              letter-spacing: 0%;
+            }
+            .Count {
+              font-family: GillSans;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 100%;
+              text-align: right;
+            }
+          }
+          .IdareLab-Smm-Packages-Right-Sides-Pack-Target {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 14px;
+            .Target {
+              font-family: GillSans;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 100%;
+              letter-spacing: 0%;
+            }
+            .Count {
+              font-family: GillSans;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 100%;
+              text-align: right;
+            }
+          }
+          .IdareLab-Smm-Packages-Right-Sides-Pack-Motion {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 32px;
+            .Motion-grey {
+              font-family: GillSans;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 100%;
+              color: rgba(219, 219, 219, 1);
+            }
+            .count-grey {
+              font-family: GillSans;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 100%;
+              color: rgba(219, 219, 219, 1);
+            }
+            .Motion {
+              font-family: GillSans;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 100%;
+              letter-spacing: 0%;
+            }
+            .Count {
+              font-family: GillSans;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 100%;
+              text-align: right;
+            }
+          }
+        }
+
+        .Button-Choose {
+          border: none;
+          background-color: rgba(25, 9, 74, 1);
+          padding: 8px 107px;
+          .word-button {
+            font-family: GillSans;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 100%;
+            text-align: center;
+            text-transform: uppercase;
+            color: white;
+          }
+        }
+      }
+      .IdareLab-Smm-Packages-Right-Sides-Pack:hover {
+        background-color: rgba(25, 9, 74, 0.5);
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .IdareLab-Smm-Packages-wrapper {
+    margin-bottom: 100px;
+    .IdareLab-Smm-Packages-inner {
+      width: 480px;
+      margin: 0 auto;
+      display: block;
+      padding: 0 20px;
+      .IdareLab-Smm-Packages-Left-Sides {
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        .IdareLab-Smm-Packages-Left-Sides-Title {
+          font-family: Coolvetica;
+          font-weight: 400;
+          font-size: 32px;
+          text-transform: uppercase;
+          margin-bottom: 40px;
+        }
+        .IdareLab-Smm-Packages-Left-Sides-Desc {
+          font-family: GillSans;
+          font-weight: 400;
+          font-size: 12px;
+          margin-bottom: 60px;
+        }
+        .IdareLab-Smm-Packages-comment {
+          font-family: GillSans;
+          font-weight: 400;
+          font-size: 10px;
+          line-height: 100%;
+          letter-spacing: 0%;
+          color: rgba(159, 159, 159, 1);
+          margin-bottom: 18px;
+        }
+        .IdareLab-Smm-Packages-comment:last-child {
+          margin-bottom: 0px;
+        }
+      }
+      .IdareLab-Smm-Packages-Right-Sides {
+        display: block;
+        width: 400px;
+        margin: 0 auto;
+        .IdareLab-Smm-Packages-Right-Sides-Pack {
+          width: 400px;
+          border: 1px solid rgba(0, 0, 0, 1);
+          transition: background-color 1s ease-in-out;
+          margin-bottom: 10px;
+          .IdareLab-Smm-Packages-Right-Sides-Pack-Opis {
+            padding: 20px;
+            .IdareLab-Smm-Packages-Right-Sides-Pack-Name {
+              font-family: Coolvetica;
+              font-weight: 400;
+              font-size: 24px;
+              text-transform: uppercase;
+              color: rgba(0, 0, 0, 1);
+              margin-bottom: 25px;
+            }
+            .IdareLab-Smm-Packages-Right-Sides-Pack-Posts {
+              display: flex;
+              justify-content: space-between;
+              margin-bottom: 14px;
+              .Posts {
+                font-family: GillSans;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 100%;
+              }
+              .Count {
+                font-family: GillSans;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                text-align: right;
+              }
+            }
+            .IdareLab-Smm-Packages-Right-Sides-Pack-Reeals {
+              display: flex;
+              justify-content: space-between;
+              margin-bottom: 14px;
+              .Reels {
+                font-family: GillSans;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+              }
+              .Count {
+                font-family: GillSans;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                text-align: right;
+              }
+            }
+            .IdareLab-Smm-Packages-Right-Sides-Pack-time {
+              display: flex;
+              justify-content: space-between;
+              margin-bottom: 14px;
+              .SMM {
+                font-family: GillSans;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+              }
+              .Count {
+                font-family: GillSans;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                text-align: right;
+              }
+            }
+            .IdareLab-Smm-Packages-Right-Sides-Pack-Target {
+              display: flex;
+              justify-content: space-between;
+              margin-bottom: 14px;
+              .Target {
+                font-family: GillSans;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+              }
+              .Count {
+                font-family: GillSans;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                text-align: right;
+              }
+            }
+            .IdareLab-Smm-Packages-Right-Sides-Pack-Motion {
+              display: flex;
+              justify-content: space-between;
+              margin-bottom: 32px;
+              .Motion-grey {
+                font-family: GillSans;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                color: rgba(219, 219, 219, 1);
+              }
+              .count-grey {
+                font-family: GillSans;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                color: rgba(219, 219, 219, 1);
+              }
+              .Motion {
+                font-family: GillSans;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+              }
+              .Count {
+                font-family: GillSans;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                text-align: right;
+              }
+            }
+          }
+
+          .Button-Choose {
+            border: none;
+            background-color: rgba(25, 9, 74, 1);
+            padding: 10px 167px;
+            .word-button {
+              font-family: GillSans;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 100%;
+              text-align: center;
+              text-transform: uppercase;
+              color: white;
+            }
+          }
+        }
+        .IdareLab-Smm-Packages-Right-Sides-Pack:hover {
+          background-color: rgba(25, 9, 74, 0.5);
+        }
+      }
+    }
+  }
+}

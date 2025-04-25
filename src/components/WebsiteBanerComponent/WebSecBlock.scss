@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "GillSans";
+  src: url(../../assests/fonts/GillSans.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "Coolvetica";
+  src: url(../../assests/fonts/coolvetica.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+
+.Idarelab-Website-section-wrapper {
+  margin-top: 80px;
+  margin-bottom: 200px;
+  .Idarelab-Website-section-inner {
+    width: 980px;
+    position: relative;
+    margin: 0 auto;
+    .Idarelab-Website-section-Numbers {
+      display: flex;
+      gap: 145px;
+      margin-left: 5px;
+      .Idarelab-Website-section-Number {
+        font-family: Coolvetica;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: rgba(159, 159, 159, 1);
+      }
+      .Idarelab-Website-section-Number:hover {
+        color: rgba(0, 0, 0, 1);
+      }
+    }
+    .Img-Website {
+      .time {
+        margin: 0;
+      }
+    }
+    .Idarelab-Website-section-Blocks {
+      .Idarelab-Website-section-Block {
+        background-color: rgba(25, 9, 74, 1);
+        padding: 20px;
+        width: 334px;
+        position: absolute;
+        top: 80px;
+        left: 13px;
+        height: 160px;
+        .Idarelab-Website-section-Block-Title {
+          font-family: Coolvetica;
+          font-weight: 400;
+          font-size: 24px;
+          color: rgba(255, 255, 255, 1);
+          text-transform: uppercase;
+          margin-bottom: 20px;
+        }
+        .Idarelab-Website-section-Block-Opis {
+          font-family: GillSans;
+          font-weight: 400;
+          font-size: 16px;
+          color: rgba(255, 255, 255, 1);
+          margin-bottom: 22px;
+        }
+      }
+      .Idarelab-Website-section-Block-red {
+        background-color: rgba(202, 85, 85, 1);
+        padding: 20px;
+        width: 334px;
+        position: absolute;
+        top: 188px;
+        left: 170px;
+        height: 160px;
+
+        .Idarelab-Website-section-Block-Title {
+          font-family: Coolvetica;
+          font-weight: 400;
+          font-size: 24px;
+          color: rgba(0, 0, 0, 1);
+          text-transform: uppercase;
+          margin-bottom: 20px;
+        }
+        .Idarelab-Website-section-Block-Opis {
+          font-family: GillSans;
+          font-weight: 400;
+          font-size: 16px;
+          color: rgba(255, 255, 255, 1);
+          margin-bottom: 5px;
+          color: rgba(0, 0, 0, 1);
+        }
+      }
+      .Idarelab-Website-section-Block-orange {
+        padding: 20px;
+        width: 334px;
+        background-color: rgba(246, 158, 99, 1);
+        position: absolute;
+        top: 305px;
+        left: 337px;
+        height: 160px;
+        .Idarelab-Website-section-Block-Title {
+          font-family: Coolvetica;
+          font-weight: 400;
+          font-size: 24px;
+          color: rgba(0, 0, 0, 1);
+          text-transform: uppercase;
+          margin-bottom: 20px;
+        }
+        .Idarelab-Website-section-Block-Opis {
+          font-family: GillSans;
+          font-weight: 400;
+          font-size: 16px;
+          color: rgba(255, 255, 255, 1);
+          margin-bottom: 45px;
+          color: rgba(0, 0, 0, 1);
+        }
+      }
+      .Idarelab-Website-section-Block-purple {
+        background-color: rgba(116, 136, 193, 1);
+        padding: 20px;
+        width: 334px;
+        position: absolute;
+        top: 410px;
+        right: 170px;
+        height: 160px;
+        .Idarelab-Website-section-Block-Title {
+          font-family: Coolvetica;
+          font-weight: 400;
+          font-size: 24px;
+          color: rgba(255, 255, 255, 1);
+          text-transform: uppercase;
+          margin-bottom: 20px;
+        }
+        .Idarelab-Website-section-Block-Opis {
+          font-family: GillSans;
+          font-weight: 400;
+          font-size: 16px;
+          color: rgba(255, 255, 255, 1);
+          margin-bottom: 22px;
+        }
+      }
+      .Idarelab-Website-section-Block-black {
+        background-color: rgba(0, 0, 0, 1);
+        padding: 20px;
+        width: 334px;
+        position: absolute;
+        top: 530px;
+        right: 40px;
+        height: 160px;
+        .Idarelab-Website-section-Block-Title {
+          font-family: Coolvetica;
+          font-weight: 400;
+          font-size: 24px;
+          color: rgba(255, 255, 255, 1);
+          text-transform: uppercase;
+          margin-bottom: 20px;
+        }
+        .Idarelab-Website-section-Block-Opis {
+          font-family: GillSans;
+          font-weight: 400;
+          font-size: 16px;
+          color: rgba(255, 255, 255, 1);
+          margin-bottom: 22px;
+        }
+      }
+    }
+  }
+}

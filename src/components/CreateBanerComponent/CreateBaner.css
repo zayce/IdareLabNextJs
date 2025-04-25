@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "GillSans";
+  src: url(../fonts/GillSans.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "Coolvetica";
+  src: url(../fonts/coolvetica.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+.IdareLab-Create-Baner-Wrapper {
+  margin-bottom: 200px;
+}
+.IdareLab-Create-Baner-Wrapper .IdareLab-Create-Baner-Inner {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  gap: 75px;
+}
+.IdareLab-Create-Baner-Wrapper .IdareLab-Create-Baner-Inner .IdareLab-Create-Baner-Left-Sides {
+  width: 340px;
+}
+.IdareLab-Create-Baner-Wrapper .IdareLab-Create-Baner-Inner .IdareLab-Create-Baner-Left-Sides .IdareLab-Create-Baner-Left-Sides-Name {
+  font-family: Coolvetica;
+  font-weight: 400;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  margin-bottom: 81px;
+}
+.IdareLab-Create-Baner-Wrapper .IdareLab-Create-Baner-Inner .IdareLab-Create-Baner-Left-Sides .IdareLab-Create-Baner-Left-Sides-Comment {
+  font-family: GillSans;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+.IdareLab-Create-Baner-Wrapper .IdareLab-Create-Baner-Inner .IdareLab-Create-Baner-Left-Sides .IdareLab-Create-Baner-Left-Sides-Button {
+  padding: 8px 25px;
+  background-color: rgb(25, 9, 74);
+  border: none;
+}
+.IdareLab-Create-Baner-Wrapper .IdareLab-Create-Baner-Inner .IdareLab-Create-Baner-Left-Sides .IdareLab-Create-Baner-Left-Sides-Button .IdareLab-Create-Baner-Left-Sides-Word {
+  font-family: GillSans;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+.IdareLab-Create-Baner-Wrapper .IdareLab-Create-Baner-Inner .IdareLab-Create-Baner-Right-Sides {
+  display: flex;
+  gap: 130px;
+}
+.IdareLab-Create-Baner-Wrapper .IdareLab-Create-Baner-Inner .IdareLab-Create-Baner-Right-Sides .IdareLab-Create-Baner-Right-Sides-Column .IdareLab-Create-Baner-Right-Sides-Column-Items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+.IdareLab-Create-Baner-Wrapper .IdareLab-Create-Baner-Inner .IdareLab-Create-Baner-Right-Sides .IdareLab-Create-Baner-Right-Sides-Column .IdareLab-Create-Baner-Right-Sides-Column-Items .Bond {
+  font-family: Coolvetica;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+.IdareLab-Create-Baner-Wrapper .IdareLab-Create-Baner-Inner .IdareLab-Create-Baner-Right-Sides .IdareLab-Create-Baner-Right-Sides-Column .IdareLab-Create-Baner-Right-Sides-Column-Items .IdareLab-Create-Baner-Right-Sides-Column-Item {
+  font-family: GillSans;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(159, 159, 159);
+  margin-bottom: 18px;
+}
+.IdareLab-Create-Baner-Wrapper .IdareLab-Create-Baner-Inner .IdareLab-Create-Baner-Right-Sides .IdareLab-Create-Baner-Right-Sides-Column .IdareLab-Create-Baner-Right-Sides-Column-Items .IdareLab-Create-Baner-Right-Sides-Column-Item:last-child {
+  margin-bottom: 0px;
+}
+.IdareLab-Create-Baner-Wrapper .IdareLab-Create-Baner-Inner .IdareLab-Create-Baner-Right-Sides .IdareLab-Create-Baner-Right-Sides-Column .IdareLab-Create-Baner-Right-Sides-Column-Items .IdareLab-Create-Baner-Right-Sides-Column-Item:hover {
+  color: rgb(0, 0, 0);
+}
+.IdareLab-Create-Baner-Wrapper .IdareLab-Create-Baner-Inner .IdareLab-Create-Baner-Right-Sides .IdareLab-Create-Baner-Right-Sides-Column .IdareLab-Create-Baner-Right-Sides-Column-Items:last-child {
+  margin-bottom: 0px;
+}/*# sourceMappingURL=CreateBaner.css.map */
