@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "GillSans";
+  src: url(../../assests/fonts/GillSans.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "Coolvetica";
+  src: url(../../assests/fonts/coolvetica.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+
+.IdareLab-Footer-Wrapper {
+  background-color: rgba(0, 0, 0, 1);
+  .IdareLab-Footer-Inner {
+    width: 980px;
+    margin: 0 auto;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    .IdareLab-Footer-Logo {
+      align-self: center;
+    }
+    .IdareLab-Footer-Navigation {
+      .IdareLab-Footer-Phone {
+        font-family: GillSans;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 1);
+        margin-bottom: 20px;
+      }
+      .IdareLab-Footer-Email {
+        font-family: GillSans;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        margin-bottom: 50px;
+      }
+      .IdareLab-Footer-Year {
+        font-family: GillSans;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+      }
+    }
+    .IdareLab-Footer-Social {
+      .IdareLab-Footer-Medias {
+        text-align: right;
+        display: flex;
+        gap: 15px;
+        margin-bottom: 72px;
+      }
+      .IdareLab-Footer {
+        font-family: GillSansC;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: right;
+        color: rgba(255, 255, 255, 1);
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "GillSans";
+  src: url(../fonts/GillSans.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "Coolvetica";
+  src: url(../fonts/coolvetica.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+.IdareLab-Input-Baner-Wrapper {
+  background-color: rgb(202, 85, 85);
+  margin-bottom: 200px;
+}
+.IdareLab-Input-Baner-Wrapper .Idarelab-Input-Baner-Inner {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  padding: 40px 0px;
+}
+.IdareLab-Input-Baner-Wrapper .Idarelab-Input-Baner-Inner .IdareLab-Input-Baner-Title {
+  width: 360px;
+}
+.IdareLab-Input-Baner-Wrapper .Idarelab-Input-Baner-Inner .IdareLab-Input-Baner-Title .IdareLab-Input-Baner-Title-Name {
+  font-family: Coolvetica;
+  font-weight: 400;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+.IdareLab-Input-Baner-Wrapper .Idarelab-Input-Baner-Inner .IdareLab-Input-Baner-Title .IdareLab-Input-Baner-Title-Desc {
+  font-family: GillSans;
+  font-weight: 400;
+  font-size: 16px;
+}
+.IdareLab-Input-Baner-Wrapper .Idarelab-Input-Baner-Inner .IdareLab-Input-Baner-Rigth-Slide .IdareLab-Input-Baner-Rigth-Slide-Input {
+  margin-bottom: 30px;
+}
+.IdareLab-Input-Baner-Wrapper .Idarelab-Input-Baner-Inner .IdareLab-Input-Baner-Rigth-Slide .IdareLab-Input-Baner-Rigth-Slide-Input .Input {
+  padding: 25px 440px 25px 25px;
+}
+.IdareLab-Input-Baner-Wrapper .Idarelab-Input-Baner-Inner .IdareLab-Input-Baner-Rigth-Slide .IdareLab-Input-Baner-Rigth-Slide-Check {
+  display: flex;
+  gap: 5px;
+}
+.IdareLab-Input-Baner-Wrapper .Idarelab-Input-Baner-Inner .IdareLab-Input-Baner-Rigth-Slide .IdareLab-Input-Baner-Rigth-Slide-Check .IdareLab-Input-Baner-Check-Opis {
+  font-family: GillSans;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 80px;
+}
+.IdareLab-Input-Baner-Wrapper .Idarelab-Input-Baner-Inner .IdareLab-Input-Baner-Rigth-Slide .IdareLab-Input-Baner-Button {
+  padding: 23px 301px;
+  background-color: rgb(0, 0, 0);
+}
+.IdareLab-Input-Baner-Wrapper .Idarelab-Input-Baner-Inner .IdareLab-Input-Baner-Rigth-Slide .IdareLab-Input-Baner-Button .IdareLab-Input-Baner-Button-Word {
+  font-family: GillSans;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=InputBaner.css.map */

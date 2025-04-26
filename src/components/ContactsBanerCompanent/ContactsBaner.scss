@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "GillSans";
+  src: url(../../assests/fonts/GillSans.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "Coolvetica";
+  src: url(../../assests/fonts/coolvetica.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+
+.Idarelab-Contacts-Baner-Wrapper {
+  margin-bottom: 200px;
+  .Idarelab-Contacts-Baner-Inner {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .Idarelab-Contacts-Baner {
+      .Idarelab-Contacts-Baner-Name {
+        font-family: Coolvetica;
+        font-weight: 400;
+        font-size: 48px;
+        text-transform: uppercase;
+        margin-bottom: 100px;
+      }
+      .Idarelab-Contacts-Baner-Name-Phone {
+        margin-bottom: 35px;
+        .Idarelab-Contacts-Baner-Phone {
+          font-family: GillSans;
+          font-weight: 700;
+          font-size: 24px;
+          text-transform: uppercase;
+          margin-bottom: 8px;
+        }
+        .Idarelab-Contacts-Baner-Number {
+          font-family: GillSans;
+          font-weight: 400;
+          font-size: 16px;
+          text-transform: uppercase;
+        }
+      }
+      .Idarelab-Contacts-Baner-Email-Account {
+        margin-bottom: 35px;
+        .Idarelab-Contacts-Baner-Email {
+          font-family: GillSans;
+          font-weight: 700;
+          font-size: 24px;
+          text-transform: uppercase;
+          margin-bottom: 8px;
+        }
+        .Idarelab-Contacts-Baner-Account {
+          font-family: GillSans;
+          font-weight: 400;
+          font-size: 16px;
+        }
+      }
+      .Idarelab-Contacts-Baner-Foto-Social-Media {
+        .Idarelab-Contacts-Baner-foto-Name {
+          font-family: GillSans;
+          font-weight: 700;
+          font-size: 24px;
+          text-transform: uppercase;
+          margin-bottom: 8px;
+        }
+        .Idarelab-Contacts-Baner-SocialMedia {
+          display: flex;
+          gap: 15px;
+        }
+      }
+    }
+    .IdareLab-Create-Baner-Logo {
+      align-self: center;
+    }
+  }
+}

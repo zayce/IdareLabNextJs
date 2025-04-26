@@ -7,6 +7,9 @@ import { CreateBaner } from "@/components/CreateBanerComponent/CreateBaner";
 import { IndividualBaner } from "@/components/IndividualBanerComponent/IndividualBaner";
 import { AboutUs } from "@/components/AboutUsComponent/AboutUs";
 import { RainbowBaner } from "@/components/RainbowBanerComponent/RainbowBaner";
+import { InputBaner } from "@/components/InputBanerComponent/InputBaner";
+import { ContactBaner } from "@/components/ContactsBanerCompanent/ContactsBaner";
+import { Footer } from "@/components/Footer/Footer";
 
 import "@/app/globals.css";
 
@@ -22,6 +25,9 @@ export default function Home() {
       <IndividualBaner />
       <AboutUs />
       <RainbowBaner />
+      <InputBaner />
+      <ContactBaner />
+      <Footer />
     </>
   );
 }

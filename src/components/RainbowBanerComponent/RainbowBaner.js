@@ -25,7 +25,7 @@ export const RainbowBaner = () => {
               </div>
             </div>
             <div className="IdareLab-Rainbow-Baner-FirstBLock-Opis-Img">
-              <Image src={First} alt="logo" width={150} height={50} />
+              <Image src={First} alt="logo" />
             </div>
           </div>
           <div className="IdareLab-Rainbow-Baner-SecondBLock">
@@ -38,7 +38,7 @@ export const RainbowBaner = () => {
               </div>
             </div>
             <div className="IdareLab-Rainbow-Baner-SecondBLock-Opis-Img">
-              <Image src={Second} alt="logo" width={150} height={50} />
+              <Image src={Second} alt="logo" />
             </div>
           </div>
           <div className="IdareLab-Rainbow-Baner-ThirdBLock">
@@ -51,7 +51,7 @@ export const RainbowBaner = () => {
               </div>
             </div>
             <div className="IdareLab-Rainbow-Baner-ThirdBLock-Opis-Img">
-              <Image src={Third} alt="logo" width={150} height={50} />
+              <Image src={Third} alt="logo" />
             </div>
           </div>
         </div>
