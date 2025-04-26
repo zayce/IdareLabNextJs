@@ -3,6 +3,13 @@
 import "@/components/WebsiteBanerComponent/WebSecBlock.scss";
 
 import Image from "next/image";
+import timeLine from "@/public/images/timeline.png";
+import First from "@/public/images/01.png";
+import Second from "@/public/images/02.png";
+import Third from "@/public/images/03.png";
+import Four from "@/public/images/04.png";
+import Five from "@/public/images/05.png";
+
 import { useMyContext } from "@/context/UseContext";
 
 export const WebSecBlock = () => {
@@ -19,12 +26,7 @@ export const WebSecBlock = () => {
             <div className="Idarelab-Website-section-Number">05</div>
           </div>
           <div className="Img-Website">
-            <Image
-              src="/images/timeline.png"
-              alt="logo"
-              width={150}
-              height={50}
-            />
+            <Image src={timeLine} alt="logo"  />
           </div>
           <div className="Idarelab-Website-section-Blocks">
             <div className="Idarelab-Website-section-Block">
@@ -35,12 +37,7 @@ export const WebSecBlock = () => {
                 {translations[language].DefiningProjectGoals}
               </div>
               <div className="Idarelab-Website-section-Block-Number">
-                <Image
-                  src="/images/01.png"
-                  alt="logo"
-                  width={150}
-                  height={50}
-                />
+                <Image src={First} alt="logo"  />
               </div>
             </div>
             <div className="Idarelab-Website-section-Block-red">
@@ -51,12 +48,7 @@ export const WebSecBlock = () => {
                 {translations[language].AnalyzingTheMarket}
               </div>
               <div className="Idarelab-Website-section-Block-Number">
-                <Image
-                  src="/images/02.png"
-                  alt="logo"
-                  width={150}
-                  height={50}
-                />
+                <Image src={Second} alt="logo" />
               </div>
             </div>
             <div className="Idarelab-Website-section-Block-orange">
@@ -67,12 +59,7 @@ export const WebSecBlock = () => {
                 {translations[language].WebsiteLayoutAndDevelopment}
               </div>
               <div className="Idarelab-Website-section-Block-Number">
-                <Image
-                  src="/images/03.png"
-                  alt="logo"
-                  width={150}
-                  height={50}
-                />
+                <Image src={Third} alt="logo"  />
               </div>
             </div>
             <div className="Idarelab-Website-section-Block-purple">
@@ -83,12 +70,7 @@ export const WebSecBlock = () => {
                 {translations[language].CodingAndBuilding}
               </div>
               <div className="Idarelab-Website-section-Block-Number">
-                <Image
-                  src="/images/04.png"
-                  alt="logo"
-                  width={150}
-                  height={50}
-                />
+                <Image src={Four} alt="logo"/>
               </div>
             </div>
             <div className="Idarelab-Website-section-Block-black">
@@ -99,12 +81,7 @@ export const WebSecBlock = () => {
                 {translations[language].MakingTheWebsite}
               </div>
               <div className="Idarelab-Website-section-Block-Number">
-                <Image
-                  src="/images/05.png"
-                  alt="logo"
-                  width={150}
-                  height={50}
-                />
+                <Image src={Five} alt="logo"  />
               </div>
             </div>
           </div>

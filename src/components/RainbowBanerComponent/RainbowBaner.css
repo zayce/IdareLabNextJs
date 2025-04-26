@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "GillSans";
+  src: url(../fonts/GillSans.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "Coolvetica";
+  src: url(../fonts/coolvetica.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+.IdareLab-Rainbow-Baner-wrapper {
+  margin-bottom: 200px;
+}
+.IdareLab-Rainbow-Baner-wrapper .IdareLab-Rainbow-Baner-Inner {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+.IdareLab-Rainbow-Baner-wrapper .IdareLab-Rainbow-Baner-Inner .IdareLab-Rainbow-Baner-FirstBLock {
+  background-color: rgb(202, 85, 85);
+  position: relative;
+}
+.IdareLab-Rainbow-Baner-wrapper .IdareLab-Rainbow-Baner-Inner .IdareLab-Rainbow-Baner-FirstBLock .IdareLab-Rainbow-Baner-FirstBLock-Opis {
+  margin: 36px 36px 231px 36px;
+}
+.IdareLab-Rainbow-Baner-wrapper .IdareLab-Rainbow-Baner-Inner .IdareLab-Rainbow-Baner-FirstBLock .IdareLab-Rainbow-Baner-FirstBLock-Opis .IdareLab-Rainbow-Baner-FirstBLock-Opis-Name {
+  font-family: Coolvetica;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  margin-bottom: 36px;
+}
+.IdareLab-Rainbow-Baner-wrapper .IdareLab-Rainbow-Baner-Inner .IdareLab-Rainbow-Baner-FirstBLock .IdareLab-Rainbow-Baner-FirstBLock-Opis .IdareLab-Rainbow-Baner-FirstBLock-Opis-Desc {
+  font-family: GillSans;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+.IdareLab-Rainbow-Baner-wrapper .IdareLab-Rainbow-Baner-Inner .IdareLab-Rainbow-Baner-FirstBLock .IdareLab-Rainbow-Baner-FirstBLock-Opis-Img {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+}
+.IdareLab-Rainbow-Baner-wrapper .IdareLab-Rainbow-Baner-Inner .IdareLab-Rainbow-Baner-SecondBLock {
+  background-color: rgb(25, 9, 74);
+  position: relative;
+}
+.IdareLab-Rainbow-Baner-wrapper .IdareLab-Rainbow-Baner-Inner .IdareLab-Rainbow-Baner-SecondBLock .IdareLab-Rainbow-Baner-SecondBLock-Opis {
+  margin: 36px 36px 231px 36px;
+}
+.IdareLab-Rainbow-Baner-wrapper .IdareLab-Rainbow-Baner-Inner .IdareLab-Rainbow-Baner-SecondBLock .IdareLab-Rainbow-Baner-SecondBLock-Opis .IdareLab-Rainbow-Baner-SecondBLock-Opis-Name {
+  font-family: Coolvetica;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  margin-bottom: 36px;
+}
+.IdareLab-Rainbow-Baner-wrapper .IdareLab-Rainbow-Baner-Inner .IdareLab-Rainbow-Baner-SecondBLock .IdareLab-Rainbow-Baner-SecondBLock-Opis .IdareLab-Rainbow-Baner-SecondBLock-Opis-Desc {
+  font-family: GillSans;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+.IdareLab-Rainbow-Baner-wrapper .IdareLab-Rainbow-Baner-Inner .IdareLab-Rainbow-Baner-SecondBLock .IdareLab-Rainbow-Baner-SecondBLock-Opis-Img {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+}
+.IdareLab-Rainbow-Baner-wrapper .IdareLab-Rainbow-Baner-Inner .IdareLab-Rainbow-Baner-ThirdBLock {
+  background-color: rgb(246, 158, 99);
+  position: relative;
+}
+.IdareLab-Rainbow-Baner-wrapper .IdareLab-Rainbow-Baner-Inner .IdareLab-Rainbow-Baner-ThirdBLock .IdareLab-Rainbow-Baner-ThirdBLock-Opis {
+  margin: 36px 36px 231px 36px;
+}
+.IdareLab-Rainbow-Baner-wrapper .IdareLab-Rainbow-Baner-Inner .IdareLab-Rainbow-Baner-ThirdBLock .IdareLab-Rainbow-Baner-ThirdBLock-Opis .IdareLab-Rainbow-Baner-ThirdBLock-Opis-Name {
+  font-family: Coolvetica;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  margin-bottom: 36px;
+}
+.IdareLab-Rainbow-Baner-wrapper .IdareLab-Rainbow-Baner-Inner .IdareLab-Rainbow-Baner-ThirdBLock .IdareLab-Rainbow-Baner-ThirdBLock-Opis .IdareLab-Rainbow-Baner-ThirdBLock-Opis-Desc {
+  font-family: GillSans;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+.IdareLab-Rainbow-Baner-wrapper .IdareLab-Rainbow-Baner-Inner .IdareLab-Rainbow-Baner-ThirdBLock .IdareLab-Rainbow-Baner-ThirdBLock-Opis-Img {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+}/*# sourceMappingURL=RainbowBaner.css.map */

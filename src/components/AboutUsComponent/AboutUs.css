@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "GillSans";
+  src: url(../fonts/GillSans.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "Coolvetica";
+  src: url(../fonts/coolvetica.ttf) format("truetype"); /* Safari, Android, iOS */
+}
+.IdareLab-AboutUs-Baner-wrapper {
+  margin-bottom: 80px;
+}
+.IdareLab-AboutUs-Baner-wrapper .IdareLab-AboutUs-Baner-inner {
+  width: 980px;
+  margin: 0 auto;
+}
+.IdareLab-AboutUs-Baner-wrapper .IdareLab-AboutUs-Baner-inner .IdareLab-AboutUs-Baner-Title {
+  margin-bottom: 40px;
+}
+.IdareLab-AboutUs-Baner-wrapper .IdareLab-AboutUs-Baner-inner .IdareLab-AboutUs-Baner-Title .IdareLab-AboutUs-Baner-Title-Name {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.IdareLab-AboutUs-Baner-wrapper .IdareLab-AboutUs-Baner-inner .IdareLab-AboutUs-Baner-Title .IdareLab-AboutUs-Baner-Title-Name .IdareLab-AboutUs-Baner-Name {
+  font-family: Coolvetica;
+  font-weight: 400;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: rgb(25, 9, 74);
+  align-items: center;
+}
+.IdareLab-AboutUs-Baner-wrapper .IdareLab-AboutUs-Baner-inner .IdareLab-AboutUs-Baner-Title .IdareLab-AboutUs-Baner-Title-Name .IdareLab-AboutUs-Baner-Title-Img {
+  align-self: center;
+}
+.IdareLab-AboutUs-Baner-wrapper .IdareLab-AboutUs-Baner-inner .IdareLab-AboutUs-Baner-Title .IdareLab-AboutUs-Baner-Desc {
+  font-family: GillSans;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  width: 606px;
+}
+.IdareLab-AboutUs-Baner-wrapper .IdareLab-AboutUs-Baner-inner .IdareLab-AboutUs-Baner-Objects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 86px;
+}
+.IdareLab-AboutUs-Baner-wrapper .IdareLab-AboutUs-Baner-inner .IdareLab-AboutUs-Baner-Objects .IdareLab-AboutUs-Baner-Object {
+  width: 260px;
+}
+.IdareLab-AboutUs-Baner-wrapper .IdareLab-AboutUs-Baner-inner .IdareLab-AboutUs-Baner-Objects .IdareLab-AboutUs-Baner-Object .IdareLab-AboutUs-Baner-Object-Name {
+  font-family: Coolvetica;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: rgb(25, 9, 74);
+  margin-bottom: 20px;
+}
+.IdareLab-AboutUs-Baner-wrapper .IdareLab-AboutUs-Baner-inner .IdareLab-AboutUs-Baner-Objects .IdareLab-AboutUs-Baner-Object .IdareLab-AboutUs-Baner-Object-Desc {
+  font-family: GillSans;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+.IdareLab-AboutUs-Baner-wrapper .IdareLab-AboutUs-Baner-inner .IdareLab-AboutUs-Baner-Objects .IdareLab-AboutUs-Baner-Object .IdareLab-AboutUs-Baner-Object-Menu-Items .IdareLab-AboutUs-Baner-Object-Menu-Item .IdareLab-AboutUs-Baner-Object-Menu-Item-bond {
+  font-family: GillSans;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+.IdareLab-AboutUs-Baner-wrapper .IdareLab-AboutUs-Baner-inner .IdareLab-AboutUs-Baner-Objects .IdareLab-AboutUs-Baner-Object .IdareLab-AboutUs-Baner-Object-Menu-Items .IdareLab-AboutUs-Baner-Object-Menu-Item .IdareLab-AboutUs-Baner-Object-Menu-Item-normal {
+  font-family: GillSans;
+  font-weight: 400;
+  font-size: 16px;
+}/*# sourceMappingURL=AboutUs.css.map */

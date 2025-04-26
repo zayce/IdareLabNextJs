@@ -1,8 +1,9 @@
 "use client";
 
-import '@/components/WebsiteBanerComponent/WebsiteTitleBaner.scss';
+import "@/components/WebsiteBanerComponent/WebsiteTitleBaner.scss";
 
 import Image from "next/image";
+import Layer from "@/public/images/Layer.png";
 import { useMyContext } from "@/context/UseContext";
 
 export const WebsiteTitleBaner = () => {
@@ -13,7 +14,7 @@ export const WebsiteTitleBaner = () => {
         <div className="Idarelab-title-Website-inner">
           <div className="Idarelab-title-Website-title">
             <span className="Word">{translations[language].Website}</span>
-            <Image src="/Layer.png" alt="logo" width={150} height={50} />
+            <Image src={Layer} alt="logo"  />
             <span className="Word">{translations[language].Developing}</span>
           </div>
           <div className="Idarelab-title-Website-desc">

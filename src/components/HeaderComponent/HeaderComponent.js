@@ -1,6 +1,8 @@
 "use client";
 import "@/components/HeaderComponent/HeaderComponent.scss";
 import Image from "next/image";
+import Logo from "@/public/images/logo.png";
+import Lang from "@/public/images/lang.png";
 import { useMyContext } from "@/context/UseContext";
 
 export const Header = () => {
@@ -11,7 +13,7 @@ export const Header = () => {
       <div className="IdareLab-header-inner">
         <div className="IdareLab-header-logo">
           {/* Указываем ширину и высоту для оптимизации */}
-          <Image src="/logo.png" alt="logo" width={150} height={50} />
+          <Image src={Logo} alt="logo" />
         </div>
         <ul className="IdareLab-header-langueges-items">
           <li
@@ -33,7 +35,7 @@ export const Header = () => {
             az
           </li>
           <li className="IdareLab-header-langueges-item">
-            <Image src="/lang.png" alt="Lang" width={30} height={30} />
+            <Image src={Lang} alt="Lang"  />
           </li>
         </ul>
         <div className="IdareLab-header-Info">

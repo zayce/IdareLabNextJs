@@ -4,6 +4,8 @@ import "@/components/ServiceSectionComponent/ServiceSectionComponent.scss";
 
 import Image from "next/image";
 
+import Rubikc from "@/public/images/RubicksLogo.png";
+
 import { useMyContext } from "@/context/UseContext";
 
 export const ServiceSection = () => {
@@ -14,12 +16,7 @@ export const ServiceSection = () => {
         <div className="IdareLab-services-section-inner">
           <div className="IdareLab-services-section-Title">
             <div className="IdareLab-services-section-Title-Logo">
-              <Image
-                src="/RubicksLogo.png"
-                alt="logo"
-                width={150}
-                height={50}
-              />
+              <Image src={Rubikc} alt="logo" />
             </div>
             <div className="IdareLab-services-section-title">
               {translations[language].FromIdeaToVisual}
